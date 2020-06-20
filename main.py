@@ -1,8 +1,12 @@
+'''copyright 2020 by JcdeA
+    ok please don't judge me by how this is written
+    I wasnt really trying my best.
+'''
 import psutil, webbrowser,time,pyautogui, os
 from multiprocessing import Process
 
 
-os.system('killall firefox')
+os.system('killall firefox')#UNLIMITED POWER!!!!!!!
 
 
 
@@ -17,7 +21,7 @@ def main():
 
 
 
-        webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+        webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')#oh yah
         os.system('wmctrl -a firefox')
         time.sleep(3+i*0.2)
         pyautogui.typewrite(' ')
